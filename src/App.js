@@ -14,7 +14,7 @@ function App() {
       case "completed":
         setFilterToDos(toDos.filter((todo) => todo.completed) === true);
         break;
-      case "uncompleted":
+      case "incompleted":
         setFilterToDos(toDos.filter((todo) => todo.completed) === true);
         break;
       default:
