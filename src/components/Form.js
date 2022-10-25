@@ -4,8 +4,9 @@ const Form = ({
   setToDos,
   toDos,
   inputText,
-  status,
+
   setStatus,
+  status,
 }) => {
   const inputTextHandler = (e) => {
     setInputText(e.target.value);
